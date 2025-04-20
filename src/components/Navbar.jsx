@@ -1,6 +1,7 @@
 import React,{useState}from 'react'
-import Link from 'react'
-import Login from '../pages/Login'
+import { IoPerson } from "react-icons/io5";
+import { Link } from "react-router-dom";
+ 
 
 const Navbar = () => {
 
@@ -8,10 +9,10 @@ const Navbar = () => {
 
     const navLinks = [
 
-        {href:"#New Arrivals", label: "New Arrivals"},
-        {href:"#Men", label: "Men"},
-        {href:"#Women", label:"Women"},
-        {href:"#Kids", label: "Kids"},
+        {href:"/", label: "New Arrivals"},
+        {href:"/Men", label: "Men"},
+        {href:"/Women", label:"Women"},
+        {href:"/Kids", label: "Kids"},
 
     ];
 
@@ -46,13 +47,12 @@ const Navbar = () => {
         </div>
 
             {/**  LOGIN*/}
-
+            
             <div>
-               < Login />
-            </div>
-
-
-            {/**  */}
+          <Link to='/login'>
+            <IoPerson className="text-2xl text-white cursor-pointer" />
+          </Link>
+        </div>
 
 
     </div>      
