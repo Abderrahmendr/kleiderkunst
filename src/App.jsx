@@ -1,8 +1,6 @@
  import './App.css' 
-import Home from './pages/home'
 import Navbar from './components/Navbar'
-import Login from './pages/login'
-import Men from './pages/men'
+import {Men, Login, Hero, Women, Kids } from './pages'
 import {Routes, Route, useNavigate} from 'react-router-dom'
 
 function App() {
@@ -12,9 +10,11 @@ function App() {
     < Navbar /> 
     <div className="pt-20 px-4 mt-2">
     <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Login" element={<Login />} />
+        <Route path="/" element={<Hero />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/men" element={< Men />}/>
+        <Route path='/women' element={ <Women />}/>
+        <Route path="/kids" element={<Kids/>} />
        </Routes>    
     </div>
     </>

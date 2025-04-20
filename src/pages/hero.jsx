@@ -2,7 +2,7 @@ import React from 'react'
   
 
 
-const home = () => {
+const hero = () => {
   return (
     <div>
       <h1>home</h1>
@@ -10,4 +10,4 @@ const home = () => {
   )
 }
 
-export default home
+export default hero

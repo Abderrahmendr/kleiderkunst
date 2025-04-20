@@ -1,0 +1,5 @@
+export {default as Hero}from './hero' 
+export {default as Kids} from './kids'
+export {default as Men} from './men'
+export {default as Women} from './women'
+export {default as Login} from './login'
