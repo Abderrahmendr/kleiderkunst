@@ -4,9 +4,15 @@ import React from 'react'
 
 const hero = () => {
   return (
-    <div>
-      <h1>home</h1>
+    <section>
+      <div>
+       
      </div>
+     <div>
+      <img src=''/>
+     </div>
+    </section>
+    
   )
 }
 

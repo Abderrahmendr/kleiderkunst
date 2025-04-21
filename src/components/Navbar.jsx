@@ -17,14 +17,14 @@ const Navbar = () => {
     ];
 
   return (
-    <nav className='fixed top-0 left-0 right-0  backdrop-blur-xm z-50 bg-teal-500 shadow-sm border-b border-white'>
+    <nav className='fixed top-0 left-0 right-0  backdrop-blur-xm z-50  '>
 
-     <div className=' w-full container h-16 mx-auto flex  items-center  justify-between px-4 sm:px-8 lg:px-8 md:h-20 '> 
+     <div className=' w-full container text-[#325320] h-16 mx-auto flex  items-center  justify-between px-4 sm:px-8 lg:px-8 md:h-20 '> 
            
             {/**  LOGO */}
         
         <div className='flex gap-1 items-center cursor-pointer  '>
-             <h1 className='text-white font-bold'>Kleiderkunst</h1>
+             <h1 className='] font-bold'>Kleiderkunst</h1>
         </div>    
 
             {/**  Desktop NAVBAR ITEMS */}
@@ -37,8 +37,8 @@ const Navbar = () => {
                onClick={() => setActiveLink(link.href)}
                href={link.href} 
                className= {` relative ml-4 left-0
-               font-medium hover:border-b  
-               ${activeLink === link.href ? "text-blue-500 " : "text-white"}`}>
+               font-medium hover:border-b  hover:text-orange-600
+               ${activeLink === link.href ? "text-[#325320]" : 'text-[#325320]'}`}>
                 {link.label}
                 </a>
             }) 
@@ -50,7 +50,7 @@ const Navbar = () => {
             
             <div>
           <Link to='/login'>
-            <IoPerson className="text-2xl text-white cursor-pointer" />
+            <IoPerson className="text-2xl cursor-pointer hover:text-orange-500" />
           </Link>
         </div>
 

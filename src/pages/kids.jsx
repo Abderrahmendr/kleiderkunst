@@ -2,7 +2,7 @@ import React from 'react'
 
 const kids = () => {
   return (
-    <div>
+    <div className='bg-secondary '>
       <h1>asdfasdf</h1>
     </div>
   )

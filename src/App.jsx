@@ -6,7 +6,8 @@ import {Routes, Route, useNavigate} from 'react-router-dom'
 function App() {
  
   return (
-    <>
+    <  >
+    <div className='min-h-screen bg-[#BEBEBE]   '>
     < Navbar /> 
     <div className="pt-20 px-4 mt-2">
     <Routes>
@@ -17,6 +18,8 @@ function App() {
         <Route path="/kids" element={<Kids/>} />
        </Routes>    
     </div>
+    </div>
+   
     </>
   )
 }
