@@ -7,7 +7,7 @@ function App() {
  
   return (
     <  >
-    <div className='min-h-screen bg-[#BEBEBE]   '>
+    <div className='min-h-screen bg-[#CCCCCC]   '>
     < Navbar /> 
     <div className="pt-20 px-4 mt-2">
     <Routes>

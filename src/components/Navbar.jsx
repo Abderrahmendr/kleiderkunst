@@ -17,14 +17,14 @@ const Navbar = () => {
     ];
 
   return (
-    <nav className='fixed top-0 left-0 right-0  backdrop-blur-xm z-50  '>
+    <nav className=' flex top-0 left-0 right-0  backdrop-blur-xm z-50  bg-transparent  '>
 
-     <div className=' w-full container text-[#325320] h-16 mx-auto flex  items-center  justify-between px-4 sm:px-8 lg:px-8 md:h-20 '> 
+     <div className='  w-full  container text-[#325320] h-16 mx-auto flex   items-center  justify-between mt-4 px-4 sm:px-8 lg:px-8 md:h-20 '> 
            
             {/**  LOGO */}
         
         <div className='flex gap-1 items-center cursor-pointer  '>
-             <h1 className='] font-bold'>Kleiderkunst</h1>
+             <h1 className='text-xl font-bold'>Kleiderkunst</h1>
         </div>    
 
             {/**  Desktop NAVBAR ITEMS */}
