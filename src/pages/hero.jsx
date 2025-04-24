@@ -139,28 +139,58 @@ const hero = () => {
            
            <div className='grid grid-cols-3  gap-0 mx-20'>
             {/**  first column */}
-           <div className='border border-white shadow-white shadow-md h-80 cursor-pointer m-2 p-2 rounded-lg'>
+           <div className='border border-white shadow-white shadow-md h-90 cursor-pointer m-2 p-2 rounded-lg'>
             <img src='./image6.jpeg' className='h-75 w-full'/>
+            <div className='text-white uppercase font-bold font-mono'>
+            <span>Basic black</span>
+            <br/>
+            <span>99$</span>
+            </div>
            </div>
-           <div className='border border-white shadow-white shadow-md rounded-lg m-2 p-2
+           <div className='border border-white shadow-white shadow-md  h-90 rounded-lg m-2 p-2
              h-80 cursor-pointer'>
             <img src='./image5.jpeg'className='h-75 w-full'/>
+            <div className='text-white uppercase font-bold font-mono'>
+            <span>Basic black</span>
+            <br/>
+            <span>99$</span>
+            </div>
            </div>
              {/**  second column */}
-           <div className='border shadow-white  border-white rounded-lg m-2 p-2
+           <div className='border shadow-white  border-white h-90 rounded-lg m-2 p-2
            h-80 shadow-md cursor-pointer'>
             <img src='./image4.jpeg'className='h-75 w-full'/>
+            <div className='text-white uppercase font-bold font-mono'>
+            <span>Basic black</span>
+            <br/>
+            <span>99$</span>
+            </div>
            </div>
           
-            <div className='cursor-pointer border-white border border-white shadow-white shadow-md   rounded-lg h-80 shadow-md m-2 p-2'>
+            <div className='cursor-pointer border-white border border-white shadow-white shadow-md h-90   rounded-lg h-80 shadow-md m-2 p-2'>
             <img src='./image3.jpeg' className='h-75 w-full'/>
+            <div className='text-white uppercase font-bold font-mono'>
+            <span>Basic black</span>
+            <br/>
+            <span>99$</span>
+            </div>
            </div>
               {/** Third column */}
-           <div className='cursor-pointer border-white border border-white shadow-white shadow-md  rounded-lg h-80 shadow-md m-2 p-2'>
+           <div className='cursor-pointer border-white border border-white shadow-white shadow-md h-90  rounded-lg h-80 shadow-md m-2 p-2'>
             <img src='./img1.jpg' className='h-75 w-full' />
+            <div className='text-white uppercase font-bold font-mono'>
+            <span>Basic black</span>
+            <br/>
+            <span>99$</span>
+            </div>
            </div>
-           <div className='cursor-pointer border-white border border-white shadow-white shadow-md  rounded-lg h-80 shadow-md m-2 p-2'>
+           <div className='cursor-pointer border-white border border-white shadow-white shadow-md h-90  rounded-lg h-80 shadow-md m-2 p-2'>
             <img src='./image2.jpeg'  className='h-75 w-full' />
+            <div className='text-white uppercase font-bold font-mono'>
+            <span>Basic black</span>
+            <br/>
+            <span>99$</span>
+            </div>
             </div>
       
 
