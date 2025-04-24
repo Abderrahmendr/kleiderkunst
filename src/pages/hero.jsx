@@ -140,27 +140,27 @@ const hero = () => {
            <div className='grid grid-cols-3  gap-0 mx-20'>
             {/**  first column */}
            <div className='border border-white shadow-white shadow-md h-80 cursor-pointer m-2 p-2 rounded-lg'>
-            <img src='./img1.jpg' width={'100%'} height={'100%'}/>
+            <img src='./image6.jpeg' className='h-75 w-full'/>
            </div>
            <div className='border border-white shadow-white shadow-md rounded-lg m-2 p-2
              h-80 cursor-pointer'>
-            <img src='./img1.jpg' width={'100%'} height={'100%'}/>
+            <img src='./image5.jpeg'className='h-75 w-full'/>
            </div>
              {/**  second column */}
            <div className='border shadow-white  border-white rounded-lg m-2 p-2
            h-80 shadow-md cursor-pointer'>
-            <img src='./img1.jpg' width={'100%'} height={'100%'}/>
+            <img src='./image4.jpeg'className='h-75 w-full'/>
            </div>
           
             <div className='cursor-pointer border-white border border-white shadow-white shadow-md   rounded-lg h-80 shadow-md m-2 p-2'>
-            <img src='./img1.jpg' width={'100%'} height={'100%'}/>
+            <img src='./image3.jpeg' className='h-75 w-full'/>
            </div>
               {/** Third column */}
            <div className='cursor-pointer border-white border border-white shadow-white shadow-md  rounded-lg h-80 shadow-md m-2 p-2'>
-            <img src='./img1.jpg' width={'100%'} height={'100%'}/>
+            <img src='./img1.jpg' className='h-75 w-full' />
            </div>
            <div className='cursor-pointer border-white border border-white shadow-white shadow-md  rounded-lg h-80 shadow-md m-2 p-2'>
-            <img src='./img1.jpg' width={'100%'} height={'100%'}/>
+            <img src='./image2.jpeg'  className='h-75 w-full' />
             </div>
       
 
@@ -168,7 +168,8 @@ const hero = () => {
             {/**button */}
 
             <div className='flex justify-center items-center mt-8 '>
-              <button className='hover:bg-orange-500 border border-white rounded-full
+              <button 
+              className='hover:bg-orange-500 border border-white rounded-full
                py-2 px-6  text-white font-mono font-bold uppercase cursor-pointer '>
                 view all
               </button>
