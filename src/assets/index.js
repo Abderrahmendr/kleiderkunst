@@ -1,1 +1,0 @@
-export {default as img1} from '../assets/img1.jpg'

@@ -1,4 +1,6 @@
- import './App.css' 
+import './App.css' 
+import Products from './pages/Products'
+import Newsletter from './pages/Newsletter'
 import Navbar from './components/Navbar'
 import {Men, Login, Hero, Women, Kids } from './pages'
 import {Routes, Route, useNavigate} from 'react-router-dom'
@@ -18,8 +20,9 @@ function App() {
         <Route path="/kids" element={<Kids/>} />
        </Routes>    
     </div>
+    < Products />
+    < Newsletter />
     </div>
-   
     </>
   )
 }
