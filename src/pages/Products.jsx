@@ -131,7 +131,7 @@ const Products = () => {
          </div>
           {/**button */}
 
-          <div className='flex justify-center items-center mt-8 '>
+          <div className='flex justify-center items-center mt-8 p-8 '>
             <button 
             className='hover:bg-orange-500 border border-white rounded-full
              py-2 px-6  text-white font-mono font-bold uppercase cursor-pointer '>
