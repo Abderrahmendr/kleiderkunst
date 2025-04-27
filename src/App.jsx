@@ -1,6 +1,7 @@
 import './App.css' 
 import Products from './pages/Products'
 import Newsletter from './pages/Newsletter'
+import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import {Men, Login, Hero, Women, Kids } from './pages'
 import {Routes, Route, useNavigate} from 'react-router-dom'
@@ -22,6 +23,7 @@ function App() {
     </div>
     < Products />
     < Newsletter />
+    < Footer />
     </div>
     </>
   )

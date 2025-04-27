@@ -3,6 +3,7 @@ import React from 'react'
 const Newsletter = () => {
   return (
     <div>
+         {/* Heading Section */}
         <div className='flex justify-center right-8 m-8'>
             <h1 
             className='uppercase text-[#343F2E] text-7xl font-mono 
@@ -16,6 +17,7 @@ const Newsletter = () => {
             </h1>
         
         </div>
+              {/* Vertical Text */}
         <div className=" 
         absolute left-[8rem] 
         grid grid-rows-3 -rotate-90 
@@ -31,7 +33,9 @@ const Newsletter = () => {
 
            
         </div>
-         <div className='  grid-cols-2 flex justify-center items-center gap-8 font-black'> 
+
+         {/* News Cards */}
+         <div className='   flex justify-center items-center gap-8 font-black'> 
             {/** first news */}
             <div className='uppercase font-mono text-[#343F2E] '>
                 <img src="./image10.jpeg" className='  rounded-xl w-190 '/>
@@ -47,34 +51,32 @@ const Newsletter = () => {
           
 
         </div>
-          <div className=' flex grid-cols-3 justify-center items-center gap-20 mt-8 '>
+          <div className=' flex  justify-center items-center gap-20 mt-8 '>
          <div className='uppercase font-mono text-[#343F2E] '>
                 <img src="./image9.jpg" className='  rounded-xl w-90 h-93 '/>
                 <p className='m-2  text-xl '> upcycled fashion and <br/> the futur</p>
                 <span className='text-gray-500 m-2  text-sm '>mon 24 April 2025</span>
 
             </div>
-            {/**forth news */}
-            <div className='uppercase font-mono text-[#343F2E] '>
+             <div className='uppercase font-mono text-[#343F2E] '>
                 <img src="./image11.jpeg" className='  rounded-xl w-90 h-93 '/>
                 <p className='m-2  text-xl '>who's making waves <br/> in fashion this year</p>
                 <span className='text-gray-500 m-2  text-sm '>mon 24 April 2025</span>
 
             </div>
-             {/**five news */}
-             <div className='uppercase font-mono text-[#343F2E] '>
+              <div className='uppercase font-mono text-[#343F2E] '>
                 <img src="./image7.jpg" className='  rounded-xl w-90 h-93 '/>
                 <p className='m-2  text-xl '>the untold stories of <br/>fashion  industry workers</p>
                 <span className='text-gray-500 m-2  text-sm '>mon 24 April 2025</span>
 
             </div>
          </div>
-        
+               {/* Quote Section */}
         <div className=' 
          uppercase ml-8  mr-8 mt-8
          bg-[#343F2E] rounded-xl
          text-[#CCCCCC] uppercase font-black
-          w-60% '
+          w-60%'
          >
             <h1 className='
               p-16 text-6xl flex-start
