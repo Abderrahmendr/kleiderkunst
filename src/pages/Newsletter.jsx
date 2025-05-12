@@ -51,7 +51,7 @@ const Newsletter = () => {
           
 
         </div>
-          <div className=' flex  justify-center items-center gap-20 mt-8 '>
+          <div className=' flex flex-wrap  justify-center items-center gap-20 mt-8 '>
          <div className='uppercase font-mono text-[#343F2E] '>
                 <img src="./image9.jpg" className='  rounded-xl w-90 h-93 '/>
                 <p className='m-2  text-xl '> upcycled fashion and <br/> the futur</p>

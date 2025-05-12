@@ -6,32 +6,44 @@ const Products = () => {
 
 
   return (
-    <div className=''>
+    <div className='max-w-full ml-10 mr-10   '>
         {/** OUR COLLECTIONS */}
 
-        <div className=' bg-[#343F2E] rounded-lg mx-10  mt-10'>
+        <div className='   bg-[#343F2E] rounded-lg   mt-10 px-10' >
         
         {/** Title of section */}
-        <div>
-          <div className='flex items-center justify-center '>
+        <div> 
+          <div className='flex items-center justify-center text-wrap'>
           <h1 className='
-          flex items-center justify-center 
-          text-6xl text-white font-extrabold
-           uppercase p-10 ml-8 gap-x-8'
+          flex items-center justify-center text-xl md:text-4xl
+          lg:text-6xl text-white font-extrabold
+           uppercase p-10 ml-26 gap-x-8
+           
+           '
            >our collection <br/>for you</h1>
-        
-            <span className='rotate-45 bg-stone-800 text-white font-mono rounded-lg   p-2'>New Arrival</span>
-            <span className='rotate-55  bg-stone-800 text-white  font-mono rounded-lg   p-2 -ml-10 '>New Arrival</span>
-            <span className='rotate-75  bg-stone-800 text-white font-mono rounded-lg    p-2 -ml-16 '>New Arrival</span>
-
-            
+     
           </div>
+          <div className=' '>
+           <span className='
+            rotate-45 bg-stone-800 text-white
+             font-mono rounded-lg   px-3 py-2
+               sm:text-sm md:text-md lg:text-lg text-xs  
+             '>New Arrival</span>
+            <span className='rotate-55  bg-stone-800 text-white 
+             font-mono rounded-lg  text-l sm:text-base   px-3 py-2  
+             sm:text-sm md:text-md lg:text-lg text-xs  
+             '>New Arrival</span>
+            <span className='rotate-75  bg-stone-800 text-white
+             font-mono rounded-lg    text-l sm:text-base  px-3 py-2  
+             sm:text-sm md:text-md lg:text-xl text-xs  
+              '>New Arrival</span>
+           </div>
         <div className=" 
-        absolute left-[8rem] 
+        absolute sm:left-[2rem] md:left-[4rem] lg:left-[4rem] 
         grid grid-rows-3 -rotate-90 
         uppercase font-extrabold
-         text-lg -mt-32 font-mono
-         
+         text-xs  -mt-28 lg:-mt-38 font-mono
+         sm:text-sm md:text-md lg:text-lg
        "
         >
           <span className='text-white '>collections</span>
@@ -45,13 +57,15 @@ const Products = () => {
          {/** Categories */}
 
          <div >
-          <nav className='flex   justify-center list-none  '> 
-            <ul className='flex'>
+          <nav className='flex   justify-center items-center list-none  '> 
+            <ul className='grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-7 '>
               {
                 categories.map((item,index)=>{
                  return <li 
                  key={index}
-                 className='p-2 m-2'
+                 className='p-2 m-2
+                
+                 '
                  >
                   <button className='
                   border border-white 
@@ -71,18 +85,19 @@ const Products = () => {
 
          </div>
          
-         <div className='grid grid-cols-3  gap-0 mx-20'>
-          {/**  first column */}
-         <div className='border border-white shadow-white shadow-md h-90 cursor-pointer m-2 p-2 rounded-lg'>
-          <img src='./image6.jpeg' className='h-75 w-full'/>
-          <div className='text-white uppercase font-bold font-mono'>
-          <span>Basic black</span>
-          <br/>
-          <span>99$</span>
-          </div>
-         </div>
-         <div className='border border-white shadow-white shadow-md  h-90 rounded-lg m-2 p-2
-           h-80 cursor-pointer'>
+         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 flex-wrap mx-4 sm:mx-6 md:mx-10 lg:mx-20">
+         {/**  first column */}
+         <div className="border border-white shadow-white shadow-md ml-10 max-w-80 sm:max-w-80 md:max-w-80   cursor-pointer m-2 p-2 rounded-lg">
+            <img src="./image6.jpeg"   className="w-full  h-75   " />
+            <div className="text-white uppercase font-bold font-mono mt-2">
+              <span>Basic black</span>
+              <br />
+              <span>$99</span>
+            </div>
+ 
+         </div>        
+          <div className="border border-white shadow-white shadow-md ml-10 max-w-80 sm:max-w-80 md:max-w-80   cursor-pointer m-2 p-2 rounded-lg">
+
           <img src='./image5.jpeg'className='h-75 w-full'/>
           <div className='text-white uppercase font-bold font-mono'>
           <span>Basic black</span>
@@ -91,8 +106,8 @@ const Products = () => {
           </div>
          </div>
            {/**  second column */}
-         <div className='border shadow-white  border-white h-90 rounded-lg m-2 p-2
-         h-80 shadow-md cursor-pointer'>
+           <div className="border border-white shadow-white shadow-md ml-10 max-w-80 sm:max-w-80 md:max-w-80   cursor-pointer m-2 p-2 rounded-lg">
+
           <img src='./image4.jpeg'className='h-75 w-full'/>
           <div className='text-white uppercase font-bold font-mono'>
           <span>Basic black</span>
@@ -101,7 +116,7 @@ const Products = () => {
           </div>
          </div>
         
-          <div className='cursor-pointer border-white border border-white shadow-white shadow-md h-90   rounded-lg h-80 shadow-md m-2 p-2'>
+         <div className="border border-white shadow-white shadow-md ml-10 max-w-80 sm:max-w-80 md:max-w-80   cursor-pointer m-2 p-2 rounded-lg">
           <img src='./image3.jpeg' className='h-75 w-full'/>
           <div className='text-white uppercase font-bold font-mono'>
           <span>Basic black</span>
@@ -110,15 +125,15 @@ const Products = () => {
           </div>
          </div>
             {/** Third column */}
-         <div className='cursor-pointer border-white border border-white shadow-white shadow-md h-90  rounded-lg h-80 shadow-md m-2 p-2'>
-          <img src='./img1.jpg' className='h-75 w-full' />
+            <div className="border border-white shadow-white shadow-md ml-10 max-w-80 sm:max-w-80 md:max-w-80   cursor-pointer m-2 p-2 rounded-lg">
+            <img src='./img1.jpg' className='h-75 w-full' />
           <div className='text-white uppercase font-bold font-mono'>
           <span>Basic black</span>
           <br/>
           <span>99$</span>
           </div>
          </div>
-         <div className='cursor-pointer border-white border border-white shadow-white shadow-md h-90  rounded-lg h-80 shadow-md m-2 p-2'>
+         <div className="border border-white shadow-white shadow-md ml-10 max-w-80 sm:max-w-80 md:max-w-80   cursor-pointer m-2 p-2 rounded-lg">
           <img src='./image2.jpeg'  className='h-75 w-full' />
           <div className='text-white uppercase font-bold font-mono'>
           <span>Basic black</span>
