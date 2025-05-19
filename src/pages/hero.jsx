@@ -15,7 +15,14 @@ const hero = () => {
      <div className=' flex items-center justify-center '>
 
      <img src={Img} alt="Hero" width='90%'  className='-mt-28' />
-      <button className=' absolute left-14 mt-56 hover:animate-pulse rounded-full w-20 h-20 text-white bg-[#343F2E] hover:bg-orange-500  items-center justify-content font-bold text-sm p-4 cursor-pointer '>
+   
+      <button className=' 
+      absolute  left-2  hover:animate-pulse rounded-full w-12 h-12
+       text-white bg-[#343F2E] hover:bg-orange-500  items-center justify-center
+        font-bold  cursor-pointer 
+        text-xs mt-2 md:text-xl md:mt-30 md:w-20 md:h-20 
+        lg:mt-[16rem]  lg:left-10
+        '>
         Shop Now
        </button>
      </div>
@@ -47,19 +54,19 @@ const hero = () => {
           >  
           <h1 
           className=' 
-          text-7xl font-bold mr-10
+           text-3xl md:text-5xl lg:text-7xl font-bold mr-10
           uppercase text-[#343F2E] font-mono '
           >
             live boldly.dress <br/>bravely
           </h1>
           <div className=" 
-          absolute left-[8rem] 
+          absolute left-0
           grid grid-rows-3 -rotate-90 
           uppercase font-extrabold
-           text-3xl -mt-8 "
+            text-lg md:text-2xl lg:text-3xl "
           >
             <span className='text-[#343F2E] mx-8'>our story</span>
-            <span className='text-orange-500'>our story</span>
+            <span className='text-orange-500 mx-4'>our story</span>
             <span className='text-[#343F2E] mx-8 '>our story</span>
              
           </div>
@@ -67,7 +74,7 @@ const hero = () => {
         {/** OUR BRAND */}
 
         <div className='flex items-center justify-center mt-4'>
-          <img src={img1}  width={'88%'} height={'30%'} className='  ml-24 mt-8 '/>
+          <img src={img1}    className=' w-full h-auto mt-4  '/>
         </div>
         
          </div>

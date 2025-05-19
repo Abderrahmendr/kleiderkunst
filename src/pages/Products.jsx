@@ -6,7 +6,7 @@ const Products = () => {
 
 
   return (
-    <div className='max-w-full ml-10 mr-10   '>
+    <div className='max-w-full ml-4 mr-4'>
         {/** OUR COLLECTIONS */}
 
         <div className='   bg-[#343F2E] rounded-lg   mt-10 px-10' >

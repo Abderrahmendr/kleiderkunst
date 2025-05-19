@@ -2,27 +2,29 @@ import React from 'react'
 
 const Newsletter = () => {
   return (
-    <div>
+    <div className='mt-20'>
          {/* Heading Section */}
-        <div className='flex justify-center right-8 m-8'>
+        <div className='flex justify-center  right-8 m-8'>
             <h1 
-            className='uppercase text-[#343F2E] text-7xl font-mono 
+            className='uppercase text-[#343F2E] text-2xl
+             md:text-4xl lg:text-6xl font-mono  ml-16
             font-bold
             '
             >A look at fashion <br/> turn towords
-             <span className=' absolute
+             <span className=' absolute 
              bg-stone-800 rotate-45 text-white rounded-lg 
-              text-xl uppercase font-black px-4 py-1 ml-4
+              text-sm sm:text-md md:text-xl  uppercase font-black px-4 py-1 ml-4 mt-2
              '>news</span>
             </h1>
         
         </div>
               {/* Vertical Text */}
         <div className=" 
-        absolute left-[8rem] 
+        absolute  left-8 lg:left-24
         grid grid-rows-3 -rotate-90 
         uppercase font-extrabold
-         text-2xl -mt-40 font-mono
+        text-lg md:text-2xl lg:text-3xl 
+        -mt-30 md:-mt-35 lg:-mt-40 font-mono
          
        "
         >
@@ -35,17 +37,17 @@ const Newsletter = () => {
         </div>
 
          {/* News Cards */}
-         <div className='   flex justify-center items-center gap-8 font-black'> 
+         <div className='   flex flex-wrap  justify-center items-center gap-8 font-black mt-20'> 
             {/** first news */}
-            <div className='uppercase font-mono text-[#343F2E] '>
-                <img src="./image10.jpeg" className='  rounded-xl w-190 '/>
-                <p className='m-2  text-2xl'>revolotionizing runways: the new <br/> age of sustainble fashion</p>
+            <div className='uppercase font-mono text-[#343F2E] mb-10'>
+                <img src="./image10.jpeg" className=' rounded-xl w-90 sm:w-90 md:w-90 lg:w-auto h-93   '/>
+                <p className='m-2  mt-4 text-2xl'>revolotionizing runways:<br/>  the new age of sustainble <br/> fashion</p>
                 <span className='text-gray-500 m-2  text-sm '>mon 24 April 2025</span>
             </div>
             {/**second news */}
             <div className='uppercase font-mono text-[#343F2E] '>
-                <img src="./image8.jpeg" className='  rounded-xl w-80 h-93 '/>
-                <p className='m-2  text-2xl '>the rise of digital <br/> fashion shows</p>
+                <img src="./image8.jpeg" className='  rounded-xl w-90 h-93 -mt-8 md:-mt-18 lg:-mt-16'/>
+                <p className='m-2 mt-4 text-2xl '>the rise of digital <br/> fashion shows</p>
                 <span className='text-gray-500 m-2  text-sm '>mon 24 April 2025</span>
             </div>
           
