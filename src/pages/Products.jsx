@@ -15,26 +15,26 @@ const Products = () => {
         <div> 
           <div className='flex items-center justify-center text-wrap'>
           <h1 className='
-          flex items-center justify-center text-xl md:text-4xl
+          flex items-center justify-center text-xl mr-20 md:text-4xl
           lg:text-6xl text-white font-extrabold
-           uppercase p-10 ml-26 gap-x-8
+           uppercase p-10 ml-20 gap-x-8
            
            '
            >our collection <br/>for you</h1>
      
           </div>
-          <div className=' '>
-           <span className='
-            rotate-45 bg-stone-800 text-white
-             font-mono rounded-lg   px-3 py-2
+          <div className=' absolute flex  right-0 -mt-16  sm:text-sm md:text-md lg:text-lg text-xs '>
+           <span className=' 
+            rotate-75 bg-stone-800 text-white -mr-4
+             font-mono rounded-lg   px-3 py-2 
                sm:text-sm md:text-md lg:text-lg text-xs  
              '>New Arrival</span>
             <span className='rotate-55  bg-stone-800 text-white 
-             font-mono rounded-lg  text-l sm:text-base   px-3 py-2  
+             font-mono rounded-lg  text-l sm:text-base  -mx-16 px-3 py-2  
              sm:text-sm md:text-md lg:text-lg text-xs  
              '>New Arrival</span>
             <span className='rotate-75  bg-stone-800 text-white
-             font-mono rounded-lg    text-l sm:text-base  px-3 py-2  
+             font-mono rounded-lg   mr-4 text-l sm:text-base  px-3 py-2  
              sm:text-sm md:text-md lg:text-xl text-xs  
               '>New Arrival</span>
            </div>
