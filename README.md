@@ -7,3 +7,7 @@ A modern and responsive landing page for a fashion store built with React and Ta
 - React.js
 - Tailwind CSS
 - JavaScript
+
+![Homepage Screenshot](./public/Homepage.png)
+![Products Screenshot](./public//Products.png)
+ 
